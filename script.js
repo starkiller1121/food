@@ -10,18 +10,18 @@ const segments = [
   { label: "D 賞", angle: 60, color: "#22B14C" },
   { label: "E 賞", angle: 80, color: "#00A2E8" },
   { label: "F 賞", angle: 100, color: "#A349A4" },
-  { label: "銘謝惠顧", angle: 40, color: "#808080" }
+  { label: "特別賞", angle: 40, color: "#808080" }
 ];
 
 // 抽獎機率
 const probabilities = [
   { label: "A 賞", weight: 0 },
-  { label: "B 賞", weight: 2 },
+  { label: "B 賞", weight: 1 },
   { label: "C 賞", weight: 4 },
-  { label: "D 賞", weight: 6 },
-  { label: "E 賞", weight: 8 },
-  { label: "F 賞", weight: 60 },
-  { label: "銘謝惠顧", weight: 20 }
+  { label: "D 賞", weight: 10 },
+  { label: "E 賞", weight: 15 },
+  { label: "F 賞", weight: 50 },
+  { label: "特別賞", weight: 20 }
 ];
 
 function weightedRandom() {
@@ -99,4 +99,5 @@ spinBtn.onclick = () => {
   }
 
   requestAnimationFrame(animate);
+
 };
