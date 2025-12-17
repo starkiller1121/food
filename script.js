@@ -10,7 +10,7 @@ const segments = [
   { label: "D 賞", angle: 60, color: "#22B14C" },
   { label: "E 賞", angle: 80, color: "#00A2E8" },
   { label: "F 賞", angle: 100, color: "#A349A4" },
-  { label: "特別賞", angle: 40, color: "#808080" }
+  { label: "特別賞", angle: 40, color: "#FF91CB" }
 ];
 
 // 抽獎機率
@@ -101,3 +101,4 @@ spinBtn.onclick = () => {
   requestAnimationFrame(animate);
 
 };
+
